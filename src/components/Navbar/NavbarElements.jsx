@@ -2,6 +2,8 @@ import styled from '@emotion/styled'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
+
+
 export const Nav = styled.nav`
     background: #000;
     height: 80px;
@@ -62,6 +64,7 @@ export const MovileIcon = styled.div`
 export const NavMenu = styled.ul`
     display: flex;
     align-items: center;
+    gap:40px ;
     list-style: none;
     text-align: center;
     margin-right: -22px;
@@ -86,7 +89,11 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 4px solid #fbe93f;
+    }
+
+    &:hover{
+        font-size: 18px;
     }
 `;
 
@@ -101,7 +108,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background-color: #01bf72;
+    background-color: #fbe93f;
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
@@ -109,10 +116,11 @@ export const NavBtnLink = styled(LinkR)`
     outline: none;
     border: none;
     cursor: pointer;
-    transition: all 0,2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
 
     &:hover{
+        cursor: pointer;
         transition: all 0.2s ease-in-out;
         background:#fff;
         color: #010606;

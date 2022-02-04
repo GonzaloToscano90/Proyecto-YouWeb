@@ -7,16 +7,16 @@ const Navbar = ({ toggle }) => {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>You-Web</NavLogo>
+                <NavLogo to='hero'  >You-Web</NavLogo>
                 <MovileIcon onClick={toggle}>
                     <FaBars/>
                 </MovileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='conocenos'>Conocenos</NavLinks>
+                        <NavLinks to='conocenos' spy={true} smooth={true} offset={150} duration={800}>Conocenos</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='servicios'>Servicios</NavLinks>
+                        <NavLinks to='servicios' spy={true} smooth={true} offset={150} duration={800}>Servicios</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='portafolio'>Portafolio</NavLinks>

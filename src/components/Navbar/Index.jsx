@@ -13,10 +13,10 @@ const Navbar = ({ toggle }) => {
                 </MovileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to='conocenos' spy={true} smooth={true} offset={150} duration={800}>Conocenos</NavLinks>
+                        <NavLinks to='conocenos' spy={true} smooth={true} offset={140} duration={800}>Conocenos</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='servicios' spy={true} smooth={true} offset={150} duration={800}>Servicios</NavLinks>
+                        <NavLinks to='servicios' spy={true} smooth={true} offset={160} duration={800}>Servicios</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='portafolio'>Portafolio</NavLinks>

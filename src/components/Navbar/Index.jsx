@@ -19,7 +19,7 @@ const Navbar = ({ toggle }) => {
                         <NavLinks to='servicios' spy={true} smooth={true} offset={160} duration={800}>Servicios</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='portafolio'>Portafolio</NavLinks>
+                        <NavLinks to='portafolio' spy={true} smooth={true} offset={160} duration={800}>Portafolio</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='plantillas'>Plantillas</NavLinks>
@@ -30,6 +30,7 @@ const Navbar = ({ toggle }) => {
                     </NavBtn>
             </NavbarContainer>
         </Nav>  
+        
     </>
   );
 };

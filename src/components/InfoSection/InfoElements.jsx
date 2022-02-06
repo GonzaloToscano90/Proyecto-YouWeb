@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+
 export const InfoContainer = styled.div`
     color:#fff;
     background: ${({lightBg})=> (lightBg ? '#f9f9f9' : '#010606')};
@@ -10,7 +11,8 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1000px;
+    /* height: 1000px; */
+    height: 860px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -55,25 +57,30 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: #12c89e;
-    font-size:30px ;
+    /* font-size:30px ; */
+    font-size:16px ;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
+    margin-bottom: 16px;
     
 ` 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 30px;
-    line-height: 1.4;
+    /* font-size: 30px; */
+    font-size: 48px;
+    /* line-height: 1.4; */
+    line-height: 1.1;
     letter-spacing: 1.4px;
     font-weight: 600;
     color: ${({ lightText}) => (lightText ? '#f7f8fa' : '#010606')
 };
 
     @media screen and (max-width: 480px){
-        font-size: 20px;
+        /* font-size: 20px; */
+        font-size: 32px;
     }
 `
 export const Subtitle = styled.p`
@@ -81,13 +88,14 @@ export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
-    line-height: 30px;
+    /* line-height: 30px; */
+    line-height: 24px;
     color: ${({darkText}) => (darkText ? '#fbe93f' : '#010606')};
 `
 export const BtnWrap = styled.div`
     display: flex;
     justify-content: flex-start;
-    margin-top: 50px ;
+    /* margin-top: 50px ; */
 `
 
 export const ImgWrap = styled.div`
